@@ -59,7 +59,7 @@ namespace TheTriviaProject.View
                 bool isAdmin = false;
                 bool userFound = false;
 
-                string connectionString = @"Data Source=C:\Users\edenk\Desktop\TheTriviaProjec-master\TheTriviaProject\MyData.db;Version=3;";
+                string connectionString = @"Data Source=C:\Users\mikaw\source\repos\TheTriviaProject\Final.db;Version=3;";
 
                 using (var connection = new SQLiteConnection(connectionString))
                 {
